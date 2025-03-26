@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Nav{
+  background: linear-gradient(to right, red,blue) !important;
+}
+
+.img-fluid{
+  height: 80vh !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  color: black !important;
+  object-fit: cover !important;
+}
+
+Nav.Link{
+  color: bisque;
+  font-weight: bold;
+}
+
+.Nav a{
+  color: bisque;
+  font-weight: bold;
+}
+
+.food{
+  height: 50vh !important;
+  width: 90% !important;
+  object-fit: cover !important;
+}
+
+.carousel-fullscreen {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.carousel-img-wrapper {
+  position: relative;
+  height: 80vh; /* 👈 Changed from 100vh to 80vh */
+  border-radius: 0;
+}
+
+.carousel-img {
+  height: 80vh; /* 👈 Changed from 100vh to 80vh */
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80vh; /* 👈 Also changed here */
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  text-align: left;
+}
+
+.carousel-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.carousel-text {
+  font-size: 1.1rem;
+  color: #f1f1f1;
+}
+
+.carousel-img-wrapper {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.carousel-caption-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 1rem 2rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.carousel-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.carousel-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
